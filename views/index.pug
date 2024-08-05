@@ -1,0 +1,87 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Excellence
+    style
+        include ../static/index.css
+    body
+        nav.navbar
+            ul
+                li
+                    img(src="../static/Img1.jpg", alt="")
+                li
+                        a(href="#home") Home
+                li
+                        a(href="/about") About 
+                li
+                        a(href="/booking") Booking
+                li
+                        a(href="/contact") Contact Us
+        
+        #box1.container
+            .inner-box
+            | Studying a language opens endless possibilities for you. With the right guidance, you can gain confidence in your skills and find success both career-wise and personally.
+            | Here, our qualified tutors are committed to providing personalized lessons that fit your needs to help you unlock those potentials.
+            | Try us today – the knowledge will pay off!
+        
+        #box2.container
+            h2 4 Easy Steps to Become a Master of the Change!
+            br
+            h1 Learn Any Language Almost Instantly
+            br
+            | Are you ready to put your language learning journey on the fast track? With these 4 simple steps, you can quickly become fluent in any language. First, start with setting up a set daily goal for yourself. Study for no more than 20-30 minutes per day and keep it consistent! Second, use an online or physical tutor. They have years of experience in teaching languages and can help you stay focused as well as give feedback throughout your progress. Third, make use of available technology – apps like Duolingo are great tools to add structure and some fun into studying. Last but not least don't forget to constantly practice what you learn – speak with friends who already know the language or native speakers if possible - this will give you valuable real-life experience that is invaluable when it comes down to speaking fluently.
+        
+        #priceList.container
+            h1 COURSES
+            .inbox
+                #course1.image-box
+                .text-box
+                    br
+                    h2 Private language lessons
+                    br
+                    | Private language tutoring service providing personalized lessons from qualified, experienced instructors.
+                    br
+                    hr
+                    br
+                    h3 PRICE : Rs.6000 &nbsp &nbsp Duration :  3 Months
+                    br
+                    button(type="button", onclick="window.location.href='/static/booking.html'") BOOK-NOW
+
+            .inbox
+                #course2.image-box
+                .text-box
+                    br
+                    h2 Group language classes
+                    br
+                    | Expert instructors provide tailored, interactive sessions that help students reach their language goals.
+                    br
+                    hr
+                    br
+                    h3 PRICE : Rs.6000 &nbsp &nbsp Duration :  3 Months
+                    br
+                    button(type="button", onclick="window.location.href='/static/booking.html'") BOOK-NOW
+            .inbox
+                #course3.image-box
+                .text-box
+                    br
+                    h2 Corporate language training
+                    br
+                    | Quickly learn a language from the comfort of your own home with one-on-one language training sessions.
+                    br
+                    hr
+                    br
+                    h3 PRICE : Rs.6000 &nbsp &nbsp Duration :  3 Months
+                    br
+                    button(type="button", onclick="window.location.href='/static/booking.html'") BOOK-NOW
+
+        #footer.container
+            h2 Learn the best from the best
+            br
+            .logo
+                //- img(src="Img1.jpg", alt="")
+                img(src="../static/Whatsapp-logo.png", alt="")
+                img(src="../static/Facebook-logo.png", alt="")
+                img(src="../static/tele-logo.png", alt="")
+                img(src="../static/Gmail-logo.png", alt="")
